@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    position: relative;
+    top: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    top: 90px;
+    margin: auto;
+    width: 900px;
+    height: 330px;
+    background-color: #333334;
+    border-radius: 10px;
+}
+
+table {
+    margin: 8px;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-spacing: 8px;
+}
+
+.table-row-1 {
+    background-color: #222222;
+    color: white;
+    height: 40px;
+    padding: 20px;
+}
+
+.td {
+    margin-top: 20px;
+    width: 3%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.table-row-2 {
+    background-color: #222222;
+    color: white;
+    height: 40px;
+}
+
+.table-row-3 {
+    background-color: #222222;
+    color: white;
+    height: 40px;
+}
+
+.tilde-key {
+    width: 0%;
+}
+
+.slash-key {
+    width: 2%;
+}
+
+.capslock-key {
+    width: 7%;
+    box-shadow: 2px 4px 10px red;
+}
+
+.enter-key {
+    width: 6%;
+}
+
+.shift-key {
+    width: 8%;
+}
+
+.space-key {
+    width: 8%;
+    box-shadow: 2px 4px 10px red;
+}
+
+.table-row-4 {
+    background-color: #222222;
+    color: white;
+    height: 40px;
+}
+
+.table-row-5 {
+    background-color: #222222;
+    color: white;
+    height: 40px;
+}
